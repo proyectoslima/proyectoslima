@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@500&family=Jockey+One&family=Noto+Sans+TC:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@500&family=Jockey+One&family=Noto+Sans+TC:wght@300;400&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container .header {
+	position: relative;
+}
+
+.container #imgHeader {
+	width: 100%;
+	filter: brightness(90%);
+	user-select: none;
+	pointer-events: none;
+}
+
+.container .header #title {
+	position: absolute;
+	top: 0px;
+	margin: 40px 40px;
+	color: #fff;
+	user-select: none;
+	pointer-events: none;
+	text-decoration: none;
+	transition: all 0.5s;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container .header .navigation nav ul {
+	position: absolute;
+	left: 40%;
+	top: 38px;
+}
+
+.container .header .navigation nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.container .header .navigation nav ul li a {
+	margin: 40px;
+	font-size: 20px;
+	color: #ecf0f1;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-decoration: none;
+	user-select: none;
+	transition: all 0.5s;
+}
+
+.container .header .navigation nav ul #contact {
+	padding: 7.5px;
+	border: 3px solid white;
+	background-color: transparent;
+	user-select: none;
+	transition: all 0.5s;
+}
+
+.container .header .navigation nav ul #contact:hover {
+	background: white;
+}
+
+.container .header .navigation nav ul li #si:hover {
+	color: #fff;
+}
+
+.container .header .navigation nav ul li #no:hover {
+	color: #000;
+}
+
+.container .header #P1 {
+	font-size: 40px;
+	position: absolute;
+	top: 500px;
+	margin: 40px 40px;
+	color: #fff;
+	user-select: none;
+	pointer-events: none;
+	text-decoration: none;
+	transition: all 0.5s;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.container .servicios #servicios h2 {
+	font-size: 30px;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	user-select: none;
+	margin: 50px;
+}
+
+.container .servicios #servicios #serviciosP {
+	font-size: 22.5px;
+	padding: 0px 50px;
+	margin: 30px;
+	font-family: 'Rubik', sans-serif;
+	color: rgb(61, 61, 61);
+}
+
+.container .servicios #servicios #serviciosP1 {
+	font-size: 24px;
+	padding: 0px 50px;
+	margin: 90px;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container #separador {
+	width: 75%;
+	border: 1px solid gray;
+	display: block;
+	margin: 90px auto;
+}
+
+.container .informacion #informacion h2 {
+	font-size: 30px;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	user-select: none;
+	margin: 50px;
+}
+
+.container .informacion #informacion #informacionP {
+	font-size: 22.5px;
+	padding: 0px 50px;
+	margin: 50px;
+	font-family: 'Rubik', sans-serif;
+	color: rgb(61, 61, 61);
+}
+
+.container .informacion #informacion #imgFinal {
+	width: 25%;
+	padding: 25px;
+	display: block;
+	margin: auto;
+}
+
+.container .contactarme #contactame h2 {
+	font-size: 30px;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	user-select: none;
+	margin: 50px;
+}
+
+.container .contactarme #contactame #contactameP {
+	font-size: 22.5px;
+	padding: 0px 50px;
+	margin: 50px;
+	font-family: 'Rubik', sans-serif;
+	color: rgb(61, 61, 61);
+}
+
+.container .contactarme #contactame #contactameP1 {
+	font-size: 22.5px;
+	padding: 0px 50px;
+	margin: 50px;
+	font-family: 'Rubik', sans-serif;
+	color: rgb(61, 61, 61);
+	text-decoration: underline;
+}
+
+.container .contactarme #contactame ul li {
+	font-size: 22.5px;
+	padding: 0px 50px;
+	margin: 50px;
+	font-family: 'Rubik', sans-serif;
+	color: rgb(61, 61, 61);
+	list-style: none;
+}
+
+.container .contactarme #contactame ul li a {
+	color: rgb(61, 61, 61);
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.container .contactarme #contactame ul li a:hover {
+	color: #000;
+}
+
+.container .footer {
+	background: #FAFAFA;
+	padding: 30px;
+}
+
+.container .footer footer #p1 {
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
